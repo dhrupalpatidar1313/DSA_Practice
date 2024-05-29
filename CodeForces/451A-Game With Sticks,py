@@ -1,0 +1,3 @@
+n , m = map(int, input().split())
+i = min(n,m)
+print('Malvika' if i % 2 == 0 else 'Akshat')
